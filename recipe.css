@@ -1,0 +1,38 @@
+body{
+    font-size: 11pt;
+    color: #404040;
+    font-family: 'georgia';
+    background-image: url("./images/silverware.jpg");
+}
+
+.heading{
+    color: #A4A400 ;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+}
+.back-ground{
+    background-color: #F0F0F0;
+}
+.first-header{
+    text-align: center;
+    font-size: 22pt;
+
+}
+
+.link{
+    color: #A4A400;
+}
+
+.comment{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+.copy-right{
+    font-family: monospace;
+    width: 250px;
+    text-align: right;
+}
