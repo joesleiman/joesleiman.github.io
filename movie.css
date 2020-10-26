@@ -12,7 +12,7 @@ header{
 .title{
     font-size: 24pt;
     font-weight: bold;
-    font-family: Tahoma;
+    font-family: 'Tahoma';
     text-shadow:  3px 3px 0 #999999;
 }
 .overall-content{
@@ -56,9 +56,6 @@ header{
     background-color: #A2B964;
     flex-basis: 250px;
 }
-.second-column .image-row{
-
-}
 
 .second-row{
     display: flex;
@@ -92,7 +89,7 @@ header{
 }
 .general-overview{
     padding-left: 10pt;
-    font-family: Arial;
+    font-family: 'Arial';
     font-size: 8pt;
 }
 
