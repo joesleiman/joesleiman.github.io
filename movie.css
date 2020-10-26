@@ -27,6 +27,7 @@ header{
     border-radius: 20px;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 .first-column{
@@ -53,6 +54,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #A2B964;
+    flex-basis: 250px;
 }
 .second-column .image-row{
 
@@ -87,4 +89,31 @@ header{
 }
 .one-review{
     padding-bottom: 10px;
+}
+.general-overview{
+    padding-left: 10pt;
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+.general-overview > dl > dt{
+    font-weight: bold;
+    padding-top: 10pt;
+}
+
+.general-overview:last-child{
+    padding-bottom: 10px;
+}
+
+.third-row{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #A2B964;
+    text-align: center;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
