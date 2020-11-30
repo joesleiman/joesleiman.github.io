@@ -1,22 +1,21 @@
-(function($) {
+(function ($) {
     $.fn.extend({
-        toObject: () => {
-            var result = {}
-            this.serializeArray().map((obj) => {
-                result[obj.name] = obj.value;
-            })
+        toObject: function () {
+            var result = {};
+            this.serializeArray().map((item) => {
+                result[item.name] = item.value;
+            });
             return result;
         },
-        fromObject: (obj) => {
-
-            this.find(':input').map((i, n) => {
-                var name = $(n).attr('name');
+        fromObject: function (obj) {
+            this.find(":input").map((v) => {
+                var name = $(v).attr("name");
                 if (obj[name]) {
-                    $(n).val(obj[name]);
+                    $(v).val(obj[name]);
                 } else {
-                    $(n).val('');
+                    $(v).val("");
                 }
-            })
-        }
+            });
+        },
     });
 })(jQuery);
